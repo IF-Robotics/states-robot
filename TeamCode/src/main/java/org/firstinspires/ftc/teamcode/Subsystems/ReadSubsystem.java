@@ -17,7 +17,7 @@ public class ReadSubsystem extends SubsystemBase {
     public static HashMap<HardwareDevice, Double> sensorValues;
     private IMU imu;
 
-    public ReadSubsystem(ArrayList<Motor> encoders, IMU imu) {
+    public ReadSubsystem(Motor[] encoders, IMU imu) {
         for(Motor m: encoders) {
             encoderValues.put(m, 0);
         }

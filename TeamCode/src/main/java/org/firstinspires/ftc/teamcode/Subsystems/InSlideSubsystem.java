@@ -3,9 +3,9 @@ package org.firstinspires.ftc.teamcode.Subsystems;
 import com.arcrobotics.ftclib.command.SubsystemBase;
 import com.arcrobotics.ftclib.hardware.motors.Motor;
 
-public class InSubsystem extends SubsystemBase {
+public class InSlideSubsystem extends SubsystemBase {
     Motor inSlideL, inSlideR;
-    public InSubsystem(Motor inSlideL, Motor inSlideR) {
+    public InSlideSubsystem(Motor inSlideL, Motor inSlideR) {
         this.inSlideL = inSlideL;
         this.inSlideR = inSlideR;
     }
